@@ -1,0 +1,199 @@
+@import url("http://fonts.cdnfonts.com/css/din-pro-cond");
+/*Font*/
+
+main {
+  font-family: "DIN Pro Medium", sans-serif;
+}
+/*Section-1*/
+.border-et {
+  border: 1px dotted red;
+}
+
+#btn-kontakt {
+  background-color: #ff9900;
+  color: white;
+  border-color: #ff9900;
+  border-radius: 0%;
+}
+
+#btn-kontakt:hover {
+  background-color: #ffffff;
+  color: #ff9900;
+}
+.card-text {
+  color: #263640;
+}
+.subtitle {
+  color: #929a9f;
+}
+
+.section_button-1 {
+  border-color: #ff9900;
+  background-color: #ff9900;
+  color: #ffffff !important;
+}
+.card-text-1 {
+  color: #929a9f;
+}
+.image-align {
+  text-align: right;
+}
+
+.card-title {
+  color: #263640;
+}
+.card-text-2 {
+  color: #929a9f;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 0em;
+  background-color: #263640;
+  padding: 3em;
+}
+.child {
+  width: 400px;
+  position: relative;
+}
+.child img {
+  width: 100%;
+}
+.test {
+  position: absolute;
+  right: -195%;
+  top: 10%;
+  z-index: 1;
+  transform: scale(1.3);
+}
+.card-title-2 {
+  color: white;
+  margin-bottom: 2em;
+}
+.card-text-2 {
+  color: white;
+}
+
+.card-subtitle {
+  color: #929a9f;
+  margin-bottom: 0.5em;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-text-end {
+  width: 120%;
+}
+
+#margin-card {
+  margin-bottom: 17em;
+}
+
+.margin-card-2 {
+  width: 45%;
+}
+
+.card-text-5 {
+  text-align: left;
+  color: #929a9f;
+}
+
+.section-5__button {
+  color: white;
+  padding: 0 !important;
+  background-color: #ff9900;
+  margin-right: 0.8em;
+}
+
+.section-5__button:hover {
+  background-color: #ff9900;
+}
+
+.card-text-6 {
+  color: #929a9f;
+}
+
+.btn-btn-primary {
+  color: #ff9900;
+}
+
+.link-left {
+  color: #ff9900;
+  margin-left: 15em;
+}
+
+.guideline {
+  border: 1px dotted transparent;
+}
+
+.subtitle_section-7 {
+  color: #929a9f;
+  font-size: 0.8em;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #263640;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.lien {
+  color: #929a9f;
+}
+
+@media screen and (max-width: 768px) {
+  /*Section 4*/
+  .child img {
+    display: none;
+  }
+  .card-subtitle,
+  .card-title-2,
+  .card-text-2 {
+    color: black;
+  }
+  #margin-card {
+    background: url("images/image-weiss-version-desktop/image-3.png") no-repeat;
+    background-position: center;
+  }
+  /*Section 5*/
+  .card-text-end {
+    width: 100%;
+  }
+  .section-5__button {
+    position: absolute;
+    right: 0.5rem;
+  }
+  /*Section 6*/
+}
+.card-text-5 {
+  max-width: 30rem;
+}
+
+.autre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #263640;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.footer {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
